@@ -4,12 +4,11 @@ $task = [
 
     'title' => 'go to the mallllll',
     'due'=> 'today tomorrow toyota',
-    'assigned_to' => 'everybody'
+    'assigned_to' => 'everybody',
+    'completed'=> false
 
 ];
 
-
-$task['completed'] = 'YESSAAA';
 
 
 require 'index.view.php';

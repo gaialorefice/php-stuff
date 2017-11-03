@@ -10,15 +10,10 @@
 <body>
 
     <ul>
-        <?php
-
-        foreach ($task as $key => $value){
-
-            echo "<li>$key : $value</li>";
-        }
-
-
-        ?>
+        <li> <strong>Name:  </strong> <?= $task['title']?></li>
+        <li> <strong>Date:  </strong> <?= $task['due']?></li>
+        <li> <strong>Has to do it:   </strong> <?= $task['assigned_to']?></li>
+        <li> <strong>Status:</strong> <?= $task['completed']? 'completed': 'incompleted'?></li>
     </ul>
 
 
